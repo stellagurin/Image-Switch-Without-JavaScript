@@ -1,0 +1,182 @@
+.container {
+	width: 760px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #cccecd;
+	border: 1px solid #000206;
+	font-family: Verdana, Arial, sans-serif;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+h3 {
+	font-size: 22px;
+	font-weight: bold;
+	color: #000;
+	margin-top: 20px;
+	margin-bottom: 25px;
+}
+
+p, div, span {
+	font-size: 12px;
+}
+
+a:active {
+	outline: none;
+}
+
+a:focus {
+	-moz-outline-style: none;
+	text-decoration: none;
+}
+
+a {
+	outline-color: invert;
+	outline-style: none;
+	outline-width: medium;
+
+}
+
+.gallerywrapper {
+	height: 450px;
+	vertical-align: top;
+}
+
+.gallerywrap {
+	float: right;
+	margin: 17px;
+}
+
+.gallery {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	cursor: pointer;
+}
+
+.gallery a span {
+	position: absolute;
+	top: 0;
+	left: -410px;
+	border: 1px solid #000206;
+	visibility: hidden;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+}
+
+.gallery a b {
+	position: absolute;
+	top: 410px;
+	left: -410px;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	visibility: hidden;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+.pic1:active span,.pic1:focus span, .pic1:active b,.pic1:focus b  {
+	background-color: #cccecd !important;
+	background: url('images/1.jpg');
+	z-index: 999;
+}
+
+.pic2:active span,.pic2:focus span, .pic2:active b,.pic2:focus b {
+	background-color: #cccecd !important;
+	background: url('images/2.jpg');
+	z-index: 999;
+}
+
+.pic3:active span,.pic3:focus span, .pic3:active b,.pic3:focus b  {
+	background-color: #cccecd !important;
+	background: url('images/3.jpg');
+	z-index: 999;
+}
+
+.pic4:active span,.pic4:focus span, .pic4:active b,.pic4:focus b  {
+	background-color: #cccecd !important;
+	background: url('images/4.jpg');
+	z-index: 999;
+}
+
+.pic5:active span,.pic5:focus span, .pic5:active b,.pic5:focus b  {
+	background-color: #cccecd !important;
+	background: url('images/5.jpg');
+	z-index: 999;
+}
+
+.pic6:active span,.pic6:focus span, .pic6:active b,.pic6:focus b  {
+	background-color: #cccecd !important;
+	background: url('images/6.jpg');
+	z-index: 999;
+}
+
+.pic7:active span,.pic7:focus span, .pic7:active b,.pic7:focus b  {
+	background-color: #cccecd !important;
+	background: url('images/7.jpg');
+	z-index: 999;
+}
+
+.pic8:active span,.pic8:focus span, .pic8:active b,.pic8:focus b  {
+	background-color: #cccecd !important;
+	background: url('images/8.jpg');
+	z-index: 999;
+}
+
+.pic9:active span,.pic9:focus span, .pic9:active b,.pic9:focus b  {
+	background-color: #cccecd !important;
+	background: url('images/9.jpg');
+	z-index: 999;
+}
+
+.gallery a span {
+	background: url('images/1.jpg') no-repeat;
+	visibility: visible;
+	display: block;
+}
+
+.gallery a span.mainimage {
+	visibility: visible;
+	display: block;
+	background: none;
+	border: 0;
+	top: 410px;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+.gallery a:active span, .gallery a:focus span {
+	visibility: visible;
+	background-repeat: no-repeat;
+	background-color: #fff;
+}
+
+.gallery a:active b, .gallery a:focus b, .gallery p {
+	visibility: visible;
+	text-align: center;
+	background: none;
+}
+
+.gallery a:active img, .gallery a:focus img {
+	border: 1px solid #000206;
+}
+
+.gallery a img  {
+	border: 1px solid #000206;
+}
+
+.gallery span img {
+	visibility: hidden;
+	width: 398px;
+	height: 398px;
+	display: block;
+}
