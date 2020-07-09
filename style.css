@@ -4,7 +4,6 @@
 	margin-right: auto;
 	background: #cccecd;
 	border: 1px solid #000206;
-	font-family: Verdana, Arial, sans-serif;
 }
 
 table {
@@ -13,11 +12,8 @@ table {
 
 h1 {
 	font-size: 20px;
-	line-height:20px;
-}
-
-p, div, span {
-	font-size: 12px;
+	line-height: 20px;
+	text-align: center;
 }
 
 a:active {
@@ -176,4 +172,8 @@ a {
 	width: 398px;
 	height: 398px;
 	display: block;
+}
+
+p a {
+	text-align: center;
 }
